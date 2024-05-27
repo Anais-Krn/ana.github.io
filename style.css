@@ -1,0 +1,48 @@
+ 
+    
+      
+  body   {
+   font-family:arial,sans-serif; /*la police de text*/
+   margin:0%;/*la marge*/
+   padding:0;/*l'espace*/
+   background-image:url('../images/image48.jpg');/*image de l'arriere plan */
+   text-align: center;/*pasition de texte*/
+   background-size:1300px ,500px;/*la largeur et la longueur*/
+   
+
+   }
+ header{
+    
+    padding:20px 0%;
+ }
+ h1{
+    color: #40e86d;
+    text-align:center;
+    margin-top:10px;
+ }
+ a {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align:left;
+    color: rgb(11, 146, 214);
+    
+ }
+ h4{
+   color:azure;
+ }
+  
+  
+
+  strong{
+   font-weight: bold;
+  }
+
+  li{
+   font-weight: bold;/*l'eppaiseur*/
+   color:rgb(241, 237, 17)
+  }
+ 
+  h3{
+   color:rgb(252, 252, 252);
+  }
