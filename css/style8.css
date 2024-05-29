@@ -1,0 +1,21 @@
+body{
+    background-size: 400% auto;
+    height: 3000px;
+    background-repeat: no-repeat;/* la repitition de l'image*/
+    color: aliceblue;
+
+    
+ }
+ h1{
+    text-decoration: underline;
+    color: aquamarine;
+    text-align: center;
+ }
+
+ a{
+    color: yellow;
+ }
+
+ h2{
+    color: darkgreen;
+ }

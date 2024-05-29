@@ -1,0 +1,52 @@
+body {
+     
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(29, 204, 128);
+   padding: 0%; 
+   color: rgb(1, 6, 11);
+        
+}
+
+article{
+    max-width: 600px;
+    margin: 0 auto;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba( rgb(18, 136, 157));
+}
+
+
+h1{
+  text-align: center;
+  color: #8A3324;
+  margin-bottom: 10px;/*definit l'espace en dessous de l'element*/
+  text-decoration: underline;
+}
+
+
+ 
+
+h3{
+   color: #8B4513;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;/*la taille de contneur*/
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;/*la forme autour d'un element*/
+    margin: 0 20px 5px 0;
+
+}
+p{
+    line-height: 1.4;/*multiplie la taille de la police*/
+}
+
+img.wrapper{
+    height: 50;
+    width: 50;
+    float:right;
+    
+}

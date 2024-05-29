@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+}
+    table{
+    width: 800px; margin: auto;
+    table-layout: fixed;/*definir l'algorithme*/
+    text-align: center;
+    margin-top: 50px; 
+    font-family:Arial;
+    color:#fff;
+}
+    
+    table, th, td{
+    border: 1px solid rgb(0, 0, 0);
+     border-collapse: collapse;/*les bordures de les cellules*/
+    font-size: 20px;
+    width: 80%;
+}
+
+th{
+    background-color: yellow;
+    padding: 30px;
+    text-transform: uppercase;/*transformation de text dans un element*/
+}
+td:nth-child(3n+1){
+    background-color: green;
+}
+td:nth-child(3n+2){
+    background-color: red;
+}
+td:nth-child(3n+3){
+    background-color: #fff;
+}
+h1{
+    text-align: center;
+}
+
+
+
+ 
+ 
+   

@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: auto;
+    color:green;
+}
+ 
+
+body{
+    
+    display:flex;/* l'element est affiche comme un conteneur  flexible*/
+    
+    padding-bottom: 60px;
+    overflow: hidden;/* tout contenu qui depasse les limites de l'element est coupe et non visible*/
+    background: linear-gradient(65deg, #f1c40f 50% , #10e268 50.1%);
+
+}
+ .container{
+    background-color: white;
+    
+    display: flex;
+    box-shadow: 0 15px 15px rgba(0,0,0.3);/* ajouter une ombre */
+
+ }
+ 
+  
+
+ .container.video-list iframe{
+    width: 100%;
+    object-fit: cover;
+    height: 105px;
+    padding: 10px;
+    cursor: pointer;/* type de curseur*/
+ }
+
+  
+ 
+
+ .container .video-list iframe:hover{
+    background-color: #f1c40f;
+    box-shadow: 0 0 0 4px #333 inset;
+    
+ }
+   
+ 
+
+
+
+ 

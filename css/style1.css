@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+}
+.table-container{
+	margin:0 auto;
+	width: 50%;
+ }
+
+ h1{
+	color: #FFD700;
+    text-align: center;
+ }
+
+ .custom-table{
+     
+    padding: 8px;
+ }
+ table{
+    background-color: aliceblue;
+    width: 80%;
+    border-collapse: collapse;
+    border: 4px solid black;
+ }
+  
+  
+  th {
+    height: 70px;
+     
+  }
+
+  tr{
+    text-align: center;
+  }
